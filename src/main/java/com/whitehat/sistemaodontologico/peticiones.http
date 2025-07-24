@@ -1,0 +1,13 @@
+POST http://localhost:8080/pacientes
+Content-Type: application/json
+
+{
+  "idPaciente" : 1875649,
+  "nombrePaciente" : "Francisco Javier Riquelme Medina",
+  "fechadenacimiento" : "1974-02-11",
+  "sexo" : "M",
+  "direccion" : "12 ptdas N 922 c/ Parapiti",
+  "edad" : 51,
+  "telefono" : "0981956296",
+  "observaciones" : "Padre del paciente Francisco Flores"
+}
